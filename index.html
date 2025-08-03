@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Break - Home</title>
+    <meta name="description" content="Welcome to Quick Break! Discover our top recommendations, delicious menu, and visit us at our branches.">
+    <meta name="author" content="Quick Break Team">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fffaf5;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #8b0000;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #b22222;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 25px;
+            margin-top: 10px;
+        }
+
+        nav {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #8b0000;
+            font-weight: bold;
+            padding: 8px 15px;
+            border: 2px solid #8b0000;
+            border-radius: 5px;
+            background-color: #fff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #8b0000;
+            color: #fff;
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            margin-top: 15px;
+            background-color: #8b0000;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #a40000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quick Break</h1>
+
+        <h2>Our Recommended</h2>
+        <ul>
+            <li>Indomie - Rating: 5/5</li>
+            <li>Kunafa - Rating: 4.5/5</li>
+            <li>Basbosa - Rating: 4/5</li>
+            <li>Coffee - Rating: 5/5</li>
+        </ul>
+
+        <h2>Enter Your Info</h2>
+        <form>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="purchaseDate">Purchase Date:</label>
+            <input type="date" id="purchaseDate" name="purchaseDate" required>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <nav>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</body>
+</html>

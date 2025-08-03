@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Break - Menu</title>
+    <meta name="description" content="Explore the delicious menu at Quick Break.">
+    <meta name="author" content="Quick Break Team">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 90%;
+            margin: 40px auto;
+            background-color: #fffaf5;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #8b0000;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #b22222;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: darkred;
+            color: white;
+        }
+
+        td {
+            background-color: #fff0f0;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #fceaea;
+        }
+
+        .order-button {
+            display: block;
+            width: fit-content;
+            margin: 40px auto 20px auto;
+            padding: 10px 25px;
+            background-color: darkred;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .order-button:hover {
+            background-color: #b22222;
+        }
+
+        nav {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+         nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #8b0000;
+            font-weight: bold;
+            padding: 8px 15px;
+            border: 2px solid #8b0000;
+            border-radius: 5px;
+            background-color: #fff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #8b0000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Our Menu</h1>
+
+        <h2>Available Items</h2>
+        <ul>
+            <li>Indomie - 20 EGP</li>
+            <li>Basbosa - 15 EGP</li>
+            <li>Kunafa - 18 EGP</li>
+            <li>Balah El Sham - 17 EGP</li>
+            <li>Cake - 25 EGP</li>
+            <li>Tea - 10 EGP</li>
+            <li>Coffee - 15 EGP</li>
+            <li>Espresso - 22 EGP</li>
+            <li>Fresh Juice - 30 EGP</li>
+            <li>Snacks - 12 EGP</li>
+        </ul>
+
+        <h2>Special Menu</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Category</th>
+                    <th>Price (EGP)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Choco Nut Bits</td>
+                    <td>Chocolate</td>
+                    <td>65</td>
+                </tr>
+                <tr>
+                    <td>Almond Crunch Cookies</td>
+                    <td>Nuts</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>Vanilla Crunch Treats</td>
+                    <td>Vanilla</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Cookies</td>
+                    <td>Chocolate</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Pecan Delights</td>
+                    <td>Nuts</td>
+                    <td>58</td>
+                </tr>
+                <tr>
+                    <td>Vanilla Cookies</td>
+                    <td>Vanilla</td>
+                    <td>52</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <a href="order.html" class="order-button">Order Now</a>
+
+        <nav>
+            <a href="index.html">Home</a> 
+            <a href="order.html">Order</a> 
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Break - Order & Branches</title>
+    <meta name="description" content="Order your favorite items online and visit us at our branches in Egypt.">
+    <meta name="author" content="Quick Break Team">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background-color: #fffaf5;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #8b0000;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #b22222;
+            margin-top: 30px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label, select, input[type="number"] {
+            display: block;
+            margin: 10px auto;
+            font-size: 16px;
+        }
+
+        select, input[type="number"] {
+            padding: 8px;
+            width: 60%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            background-color: #8b0000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #b22222;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 0;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        nav {
+            margin-top: 40px;
+        }
+
+         nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #8b0000;
+            font-weight: bold;
+            padding: 8px 15px;
+            border: 2px solid #8b0000;
+            border-radius: 5px;
+            background-color: #fff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #8b0000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Order & Branches</h1>
+
+        <h2>Order Now</h2>
+        <form action="#" method="post">
+            <label for="item">Select an item:</label>
+            <select id="item" name="item">
+                 <option value="indomie">Indomie</option>
+                 <option value="basbosa">Basbosa</option>
+                 <option value="kunafa">Kunafa</option>
+                 <option value="balah_el_sham">Balah El Sham</option>
+                 <option value="cake">Cake</option>
+                 <option value="tea">Tea</option>
+                 <option value="coffee">Coffee</option>
+                 <option value="espresso">Espresso</option>
+                 <option value="fresh_juice">Fresh Juice</option>
+                 <option value="snacks">Snacks</option>
+                 <option value="choco_nut_bits">Choco Nut Bits</option>
+                 <option value="almond_crunch_cookies">Almond Crunch Cookies</option>
+                 <option value="vanilla_crunch_treats">Vanilla Crunch Treats</option>
+                 <option value="chocolate_cookies">Chocolate Cookies</option>
+                 <option value="pecan_delights">Pecan Delights</option>
+                 <option value="vanilla_cookies">Vanilla Cookies</option>
+            </select>
+
+                                
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+
+            <input type="submit" value="Place Order">
+        </form>
+
+        <h2>Our Branches in Egypt</h2>
+        <ul>
+            <li>Alexandria - Smouha</li>
+            <li>Cairo - Nasr City</li>
+            <li>Mansoura - El Gomhoria Street</li>
+            <li>Ismailia - City Center</li>
+            <li>Port Said - Al Arab District</li>
+        </ul>
+
+        <nav>
+            <a href="index.html">Home</a> 
+            <a href="menu.html">Menu</a> 
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+    
+</body>
+</html>

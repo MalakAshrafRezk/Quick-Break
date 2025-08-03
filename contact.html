@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Break - Contact</title>
+    <meta name="description" content="Get in touch with Quick Break for inquiries and feedback.">
+    <meta name="author" content="Quick Break Team">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background-color: #fffaf5;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #8b0000;
+        }
+
+        h2 {
+            color: #b22222;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        textarea, select, input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: darkred;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #a10000;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+         nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #8b0000;
+            font-weight: bold;
+            padding: 8px 15px;
+            border: 2px solid #8b0000;
+            border-radius: 5px;
+            background-color: #fff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #8b0000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+
+        <p><strong>Phone/WhatsApp:</strong> 01*********</p>
+        <p><strong>Hotline:</strong>15684</p>
+
+        <h2>Write to us</h2>
+        <form>
+            <label for="message">Write something:</label><br>
+            <textarea id="message" rows="4" placeholder="Your message..."></textarea><br>
+
+            <label for="rating">Rate our service:</label><br>
+            <select id="rating">
+                <option value="5">★★★★★</option>
+                <option value="4">★★★★</option>
+                <option value="3">★★★</option>
+                <option value="2">★★</option>
+                <option value="1">★</option>
+            </select><br>
+
+            <input type="submit" value="Send">
+        </form>
+
+        <nav>
+            <a href="index.html">Home</a> 
+            <a href="menu.html">Menu</a> 
+            <a href="order.html">Order</a>
+        </nav>
+    </div>
+
+     <footer>
+            <p>© Project Development Team 2025</p>
+        </footer>
+
+</body>
+</html>
